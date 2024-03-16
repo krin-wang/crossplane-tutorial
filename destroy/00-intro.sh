@@ -37,13 +37,13 @@ Do you have those tools installed?
 # Crossplane #
 ##############
 
-rm -f a-team/intro.yaml
+# rm -f a-team/intro.yaml
 
-git add .
+# git add .
 
-git commit -m "Remove intro"
+# git commit -m "Remove intro"
 
-git push
+# git push
 
 COUNTER=$(kubectl get managed --no-headers | grep -v database | grep -v object | grep -v release | wc -l)
 
